@@ -1,6 +1,7 @@
-# Vagrant-boxes-Windows
-vagrant file and provisioner scripts which includes all the steps to build a Windows vm in your local.
-Put the jdk exe file in the 'files' directory and modify config.yaml and Vagrantfile with appropriate name of JDK file.
+# Vagrant-box for Windows
+Procedure to build Windows vagrant provisioned VM. 
+
+vagrant file and provisioner scripts which includes all the steps to build a Windows vm in your local machine.
 
 Following tools/components will be installed.
 
@@ -12,3 +13,23 @@ Following tools/components will be installed.
     6.virtualenv
     7.nodejs
     8.npm
+
+#Prerequisites
+
+Install Oracle VM VirtualBox,Vagrant and create project directory.
+
+#Vagrant box build process
+
+1.Checkout this repository into your local machine using the Git clone command.
+2.Download JDK exe file and add it into windows/files/ folder.
+3.Modify config.yaml and vagrantfile with appropriate name of JDK file.
+4.Run the Vagrantfile with below command.
+  
+  vagrant up
+
+
+
+
+
+
+
