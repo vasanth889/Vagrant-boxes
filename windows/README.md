@@ -18,13 +18,13 @@ Following tools/components will be installed.
 
 ### Prerequisites
 
-Install Oracle VM VirtualBox,Vagrant and create project directory.
+Install [Oracle VM VirtualBox](http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html),Vagrant and create project directory.
 
 ### Vagrant box build process
 
 1.Checkout this repository into your local machine using the Git clone command.
 
-2.Download JDK exe file and add it into below folder.
+2.Download JDK exe file[[JDK 8u144-linux-x64.tar](https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html)] and add it into below folder.
 ```
   windows/files/
 ```
