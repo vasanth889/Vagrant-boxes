@@ -14,11 +14,11 @@ Following tools/components will be installed.
     7.nodejs
     8.npm
 
-#Prerequisites
+##Prerequisites
 
 Install Oracle VM VirtualBox,Vagrant and create project directory.
 
-#Vagrant box build process
+##Vagrant box build process
 
 1.Checkout this repository into your local machine using the Git clone command.
 2.Download JDK exe file and add it into windows/files/ folder.
