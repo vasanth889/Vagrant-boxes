@@ -1,5 +1,5 @@
 # Vagrant-boxes-Windows
-
+vagrant file and provisioner scripts which includes all the steps to build a Windows vm in your local.
 Put the jdk exe file in the 'files' directory and modify config.yaml and Vagrantfile with appropriate name of JDK file.
 
 Following tools/components will be installed.
