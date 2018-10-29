@@ -27,7 +27,7 @@ boxes:
       - 5005
     resources:
       - jdk-8u144-windows-x64.exe
-    provisioner_script: provisioner/ps.ps1
+    provisioner_script: provisioner/provisioner.ps1
     tools:
       - git_version: 2.19.1
       - python_version: 3.6.6
