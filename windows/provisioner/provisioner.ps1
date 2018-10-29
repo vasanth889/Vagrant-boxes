@@ -30,7 +30,7 @@ Write-Output "nodejs url is: $Nodejs_Url"
 
 #Arguments passed
 Write-Output "Git version is: $Git_version"
-Write-Output "JDK Archive: $JDK_FILE"
+Write-Output "JDK file : $JDK_FILE"
 Write-Output "Python version is: $Python_version"
 Write-Output "nodejs version is: $Nodejs_version"
 Write-Output "maven version is: $Maven_version"
@@ -59,10 +59,18 @@ Import-Module BitsTransfer
 Write-Output "Import module BitTansfer finished..."
 
 #refresh env path
-function refresh-path {
-    $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") +
+function refresh-path
+{
+    $env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") +
         ";" +
-        [System.Environment]::GetEnvironmentVariable("Path","User")
+        [System.Environment]::GetEnvironmentVariable("Path", "User")
+}
+
+#restart the computer
+function restart
+{
+    Write-Output "Restarting the computer"
+    Restart-Computer
 }
 
 #Install chocolatey
@@ -270,12 +278,11 @@ else
 if ($?)
 {
     Write-Output "setting up done!!"
-    sleep -s 2
-    Write-Output "Restarting the computer"
-    Restart-Computer
 }
 else
 {
     Write-Output "setting up failed!! "
 }
 
+#restarting
+restart
