@@ -13,12 +13,14 @@ Following tools/components will be installed.
     6.virtualenv
     7.nodejs
     8.npm
+    
+## How to build the Vagrant box
 
-##Prerequisites
+### Prerequisites
 
 Install Oracle VM VirtualBox,Vagrant and create project directory.
 
-##Vagrant box build process
+### Vagrant box build process
 
 1.Checkout this repository into your local machine using the Git clone command.
 
@@ -27,9 +29,9 @@ Install Oracle VM VirtualBox,Vagrant and create project directory.
 3.Modify config.yaml and vagrantfile with appropriate name of JDK file.
 
 4.Run the Vagrantfile with below command.
-  
+```
   vagrant up
-
+```
 
 
 
