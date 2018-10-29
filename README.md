@@ -4,11 +4,11 @@ Put the jdk exe file in the 'files' directory and modify config.yaml and Vagrant
 
 Following tools/components will be installed.
 
-    Java
-    Git
-    Maven
-    Python3.6
-    pip3.6
-    virtualenv
-    nodejs
-    npm
+    1.Java
+    2.Git
+    3.Maven
+    4.Python3.6
+    5.pip3.6
+    6.virtualenv
+    7.nodejs
+    8.npm
